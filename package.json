@@ -1,0 +1,31 @@
+{
+  "name": "tween-function",
+  "version": "1.0.0",
+  "description": "Creates a function which can be used to animate values. Features: easing, and delays",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eases": "^1.0.6",
+    "tape": "^3.4.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "tween,ease,easing,delay"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikkoh/tween-function.git"
+  },
+  "homepage": "https://github.com/mikkoh/tween-function",
+  "bugs": {
+    "url": "https://github.com/mikkoh/tween-function/issues"
+  }
+}
