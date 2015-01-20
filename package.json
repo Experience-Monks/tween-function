@@ -1,7 +1,7 @@
 {
   "name": "tween-function",
   "version": "1.0.0",
-  "description": "Creates a function which can be used to animate values. Features: easing, and delays",
+  "description": "Creates a function which can be used to animate values. Supports ease functions and delay.",
   "main": "index.js",
   "license": "MIT",
   "author": {
