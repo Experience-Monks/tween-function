@@ -25,7 +25,10 @@ var time = 6;
 var start = 10;
 var end = 100;
 
-console.log( tween( time, start, end ) ); // value with ease applied
+// from 0 to 10 seconds
+for(time=0;time<=10;time++){
+ console.log( tween( time, start, end ) ); // logs adjusted value based on time with ease applied
+}
 ```
 
 ## License
