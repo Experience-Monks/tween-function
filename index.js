@@ -6,7 +6,7 @@ module.exports = function( settings ) {
 
   ease = settings.ease || linear;
   delay = settings.delay || 0;
-  duration = settings.duration || 1;
+  duration = typeof settings.duration !== 'undefined' ? settings.duration : 1;
   duration -= delay;
     
   function tween( time, start, end ) {
